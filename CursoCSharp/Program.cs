@@ -28,6 +28,7 @@ namespace CursoCSharp {
                 // Estruras de Controle
                 {" - Estrutura If - Estruturas de controle", EstruturaIf.Executar },
                 {" - Estrutura If/Else - Estruturas de controle", EstruturaIfElse.Executar },
+                {" - Estrutura If/Else/If - Estruturas de controle", EstruturaIfElseIf.Executar },
             });
 
             central.SelecionarEExecutar();
