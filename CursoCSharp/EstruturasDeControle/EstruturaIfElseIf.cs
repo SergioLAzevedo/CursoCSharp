@@ -12,16 +12,19 @@ namespace CursoCSharp.EstruturasDeControle {
 
             string entrada = Console.ReadLine();
             Double.TryParse(entrada, out double nota);
-
-            if (nota >= 9.0) {
-                Console.WriteLine("Quadro de Honra");
+            if (nota == 10.0) {
+                Console.WriteLine("tu queé pica");
+            } else if (nota >= 9.0) {
+                Console.WriteLine("Quadro de Honra ");
             } else if (nota >= 7.0) {
                 Console.WriteLine("Aprovado");
             } else if (nota >= 5.0) {
                 Console.WriteLine("Recuperação");
             } else {
-                Console.WriteLine("Te vejo na proxima...");
+
+
             }
+
 
             Console.WriteLine("Fim!!");
 
